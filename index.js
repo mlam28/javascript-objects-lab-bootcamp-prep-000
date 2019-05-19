@@ -1,6 +1,6 @@
 var recipes = {healthy: "salad", meat:"steak", fish: "salmon"}
 
-function updateObjectWithKeyAndValue(object, key, value,) {
+function updateObjectWithKeyAndValue(object, key, value){
   recipes[key]=value
   return recipes
 }
